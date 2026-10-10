@@ -1,0 +1,23 @@
+# Exclude the standalone FastAPI server — Vercel uses frontend/api/*.py instead
+backend/
+
+# Python cache
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+*.pyc
+
+# Node modules (Vercel installs these itself during build)
+frontend/node_modules/
+
+# Next.js build cache (Vercel rebuilds from source)
+frontend/.next/
+
+# Test files
+backend/test_agents.py
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.log
+.env.local
