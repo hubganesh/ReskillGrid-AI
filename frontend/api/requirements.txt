@@ -1,0 +1,3 @@
+# ReskillGrid AI — Python serverless functions
+# All logic uses the Python standard library only (json, http, os, sys).
+# No third-party packages are required.
